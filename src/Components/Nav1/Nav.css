@@ -1,0 +1,65 @@
+.render {
+  width: 100%;
+}
+
+.render .navbar {
+  max-width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px 0 25px #d1d0d0;
+          box-shadow: 0px 0 25px #d1d0d0;
+}
+
+.render .navbar .logo {
+  font-size: 20px;
+  color: #3f77f1;
+  font-family: sans-serif;
+  padding: 0 20px;
+  font-weight: 600;
+}
+
+.render .navbar .admin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+}
+
+.render .navbar .admin h3 {
+  color: black;
+  padding: 5px;
+}
+
+.render .navbar .admin img {
+  width: 20px;
+  height: 25px;
+}
+
+.render .navbar .Logout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 4px 25px 4px 50px;
+}
+
+.render .navbar .Logout h3 {
+  color: black;
+  padding: 5px;
+}
+
+.render .navbar .Logout img {
+  width: 20px;
+  height: 25px;
+}
+/*# sourceMappingURL=Nav.css.map */

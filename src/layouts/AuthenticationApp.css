@@ -1,0 +1,9 @@
+.App {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=AuthenticationApp.css.map */

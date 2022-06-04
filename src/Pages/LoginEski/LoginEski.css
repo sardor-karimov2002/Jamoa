@@ -1,0 +1,85 @@
+.login {
+  max-width: 1360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.login__form {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login__form .input {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 8px;
+  margin: 10px auto;
+  border-radius: 8px;
+  border: none;
+  background-color: #cbd5df;
+}
+
+.login__form .input::-webkit-input-placeholder {
+  color: #444242;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.login__form .input:-ms-input-placeholder {
+  color: #444242;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.login__form .input::-ms-input-placeholder {
+  color: #444242;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.login__form .input::placeholder {
+  color: #444242;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.login__form .button {
+  width: 30%;
+  margin: 10px;
+  margin-left: 100px;
+  background-color: #001F62;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+
+.login .block {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login .block .link {
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+/*# sourceMappingURL=LoginEski.css.map */

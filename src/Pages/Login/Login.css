@@ -1,0 +1,129 @@
+.login {
+  max-width: 1360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.login__form {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login__form .input {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 8px;
+  margin: 10px auto;
+  border-radius: 8px;
+  border: none;
+  background-color: #cbd5df;
+}
+
+.login__form .input option {
+  width: 100%;
+}
+
+.login__form .input::-webkit-input-placeholder {
+  color: #444242;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.login__form .input:-ms-input-placeholder {
+  color: #444242;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.login__form .input::-ms-input-placeholder {
+  color: #444242;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.login__form .input::placeholder {
+  color: #444242;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+
+.login__form .error {
+  color: red;
+  font-size: 15px;
+  margin: 5px auto;
+  padding: 4px;
+}
+
+.login__form .response {
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.login__form .response .button {
+  width: 60%;
+  background-color: #001F62;
+  color: whitesmoke;
+  border-radius: 5px;
+  margin: 0 0 0 5px;
+  font-weight: 600;
+}
+
+.login__form .response .button:active {
+  background-color: whitesmoke;
+  color: #001F62;
+}
+
+.login__form .response .eski {
+  width: 40%;
+  margin: 0 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  padding-top: 10px;
+  color: #001F62;
+  font-family: sans-serif;
+  font-weight: 600;
+  border: 1px solid;
+}
+
+.login__form .response .eski:hover {
+  background-color: #001F62;
+  color: whitesmoke;
+}
+
+.login__left {
+  width: 50%;
+}
+
+.login__left a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  margin: 20px 40px auto auto;
+  padding: 5px;
+}
+/*# sourceMappingURL=Login.css.map */

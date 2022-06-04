@@ -1,0 +1,52 @@
+.login {
+  max-width: 1360px;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+
+  &__form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .input {
+      width: 70%;
+      display: flex;
+      padding: 8px;
+      margin: 10px auto;
+      border-radius: 8px;
+      border: none;
+      background-color: rgb(203, 213, 223);
+    }
+
+    .input::placeholder {
+      color: rgb(68, 66, 66);
+      font-size: 18px;
+      padding: 5px 10px;
+    }
+
+    .button {
+      width: 30%;
+      margin: 10px;
+      margin-left: 100px;
+      background-color: #001F62;
+      color: whitesmoke;
+      border-radius: 5px;
+      // margin: 0 0 0 5px;
+    }
+    
+
+
+  }
+  .block{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    .link{
+      margin-left: auto;
+      margin-top: 20px;
+      margin-right: 50px;
+    }
+  }
+  }

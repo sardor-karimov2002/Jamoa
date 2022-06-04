@@ -1,0 +1,33 @@
+.kitob{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin:20px auto;
+  border: 1px solid;
+  .Accordion{
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    .block{
+      width: 800px;
+      display: flex;
+      justify-content: space-between;
+      .korish{
+        padding: 5px ;
+        background-color: aqua;
+        text-decoration: none;
+      }
+    }
+  }
+  .havola{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: -20px;
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    align-items: center;
+  }
+}

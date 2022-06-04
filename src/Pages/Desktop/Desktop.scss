@@ -1,0 +1,11 @@
+.baza{
+  background-color: antiquewhite;
+  padding: 5px;
+  ::-webkit-scrollbar{
+    background-color: rgb(255, 5, 5);
+    width: 3px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: rgb(58, 5, 51);
+  }
+}

@@ -1,0 +1,77 @@
+.login{
+  max-width: 1360px;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  &__form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .input{
+      width: 70%;
+      display: flex;
+      padding: 8px;
+      margin: 10px auto;
+      border-radius: 8px;
+      border: none;
+      background-color: rgb(203, 213, 223);
+      option{
+        width: 100%;
+      }
+    }
+    .input::placeholder{
+      color: rgb(68, 66, 66);
+      font-size: 18px;
+      padding: 5px 10px;
+    }
+    .error{
+      color: red;
+      font-size: 15px;
+      margin:5px auto;
+      padding: 4px;
+    }
+    .response{
+      width: 70%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      .button{
+        width: 60%;
+        background-color:#001F62;
+        color: whitesmoke;
+        border-radius: 5px;
+        margin: 0 0 0 5px;
+        font-weight: 600;
+      }
+      .button:active{
+        background-color: whitesmoke;
+        color: #001F62;
+      }
+      .eski{
+        width: 40%;
+        margin: 0 5px;
+        display: flex;
+        font-size: 14px;
+        padding-top: 10px;
+        color: #001F62;
+        font-family: sans-serif;
+        font-weight: 600;
+        border: 1px solid;
+      }
+      .eski:hover{
+        background-color: #001F62;
+        color: whitesmoke;
+      }
+    }
+  }
+  &__left{
+    width: 50%;
+    a{
+      display: flex;
+      justify-content: end;
+      margin: 20px 40px auto auto;
+      padding:5px;
+    }
+  }
+}

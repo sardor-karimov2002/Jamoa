@@ -1,0 +1,25 @@
+.oke{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 80px auto;
+  .dovinlod{
+    display: flex;
+    width: 100%;
+    .malumot{
+      width: 100%;
+      margin: 20px;
+      background-color: rgb(6, 235, 235);
+      .Typography:hover{
+        // background-color: rgb(235, 227, 227);
+        box-shadow: 0 0 10px red;
+        // border-radius: 10px;
+        color: black;
+      }
+      .Typography:active{
+        background-color: rgb(247, 4, 4);
+        color: black;
+      }
+    }
+  }
+}

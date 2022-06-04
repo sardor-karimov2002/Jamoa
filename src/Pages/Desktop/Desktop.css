@@ -1,0 +1,14 @@
+.baza {
+  background-color: antiquewhite;
+  padding: 5px;
+}
+
+.baza ::-webkit-scrollbar {
+  background-color: #ff0505;
+  width: 3px;
+}
+
+.baza ::-webkit-scrollbar-thumb {
+  background-color: #3a0533;
+}
+/*# sourceMappingURL=Desktop.css.map */
